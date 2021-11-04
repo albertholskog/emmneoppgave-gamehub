@@ -1,0 +1,62 @@
+#gamehub-grid {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr) 3fr 0.5fr;
+  grid-template-areas:
+    "header"
+    "banner"
+    "main"
+    "footer";
+}
+
+.header-main-gamehub {
+  grid-area: header;
+  
+}
+.banner-main-gamehub {
+  grid-area: banner;
+  
+}
+
+.main-gamehub {
+  grid-area: main;
+  
+}
+.footer-main-gamehub {
+  grid-area: footer;
+ 
+}
+
+#gamelist-grid {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 2fr 2fr 2fr 0.5fr;
+  grid-template-areas:
+    "header header header"
+    "banner banner banner"
+    "aside main main"
+    "aside main main"
+    "footer footer footer";
+}
+
+.header-gamelist {
+  grid-area: header;
+}
+.banner-gamelist {
+  grid-area: banner;
+}
+.aside-gamelist {
+  grid-area: aside;
+  background: brown;
+}
+.main-gamelist {
+  grid-area: main;
+  background: chartreuse;
+}
+.footer-gamelist {
+  grid-area: footer;
+}

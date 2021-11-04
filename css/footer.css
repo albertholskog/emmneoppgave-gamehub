@@ -1,0 +1,13 @@
+.contact {
+  text-align: center;
+  background-color: #707070;
+}
+.contact div {
+  margin: 1rem;
+}
+.gamehub_footer {
+  margin: 1rem;
+}
+footer p {
+  font-weight: 700;
+}
