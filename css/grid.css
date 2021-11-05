@@ -1,9 +1,9 @@
 #gamehub-grid {
   display: grid;
-  width: 100vw;
-  height: 100vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr) 3fr 0.5fr;
+  /* width: 100vw; */
+  
+  /* grid-template-columns: 1fr; */
+  /* grid-template-rows: repeat(2, 1fr) 3fr 0.5fr; */
   grid-template-areas:
     "header"
     "banner"
