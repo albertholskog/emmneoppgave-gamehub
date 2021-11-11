@@ -155,7 +155,7 @@ form h2 {
     top: -40px;
     text-align: center;
 }
-.test {
+.down {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -236,7 +236,6 @@ form h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 .cardinfo div input {
     display: block;
@@ -251,9 +250,77 @@ form h2 {
     outline: none;
 }
 .cardinfo div label {
-  font-size: 1.2rem;
-  font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
-#purchase-butten .order{
-  border: 2px solid black;
+#purchase-butten {
+    background-color: #32bf5d;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+/* profile page */
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 600px;
+    margin: 100px 0;
+}
+.profile-wrapper div{
+    flex: 1;
+}
+
+.profile-avitar{
+    
+    text-align: center;
+}
+.profile-avitar h1{
+    font-size: 2rem;
+    font-weight: bold;
+   padding-bottom: 40px;
+}
+.profile-avitar img{
+    height: 150px;
+    width: auto;
+   
+}
+.profile-info p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px 10px;
+    padding-left: 50px;
+}
+.profile-info .profile-butten{
+    text-align: center;
+    padding-top: 20px;
+}
+.profile-butten button{
+    background-color: #32BF5D;
+border-radius: 10px;
+padding: 5px;
+border: 2px solid black;
+}
+/* game-info */
+
+.gameimg{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+}
+.gameimg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    
 }
