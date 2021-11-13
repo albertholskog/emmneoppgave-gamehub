@@ -1,20 +1,17 @@
 .contact {
-    text-align: center;
-    background-color: #707070;
-    width: 100%;
+  text-align: center;
+  background-color: #707070;
+  width: 100%;
 }
 .contact div {
-    margin: 1rem;
+  margin: 1rem;
 }
 .gamehub_footer {
-    margin: 1rem;
+  margin: 1rem;
 }
 footer p {
-    font-weight: 700;
+  font-weight: 700;
 }
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 5vh;
+  margin-top: auto;
 }

@@ -1,326 +1,384 @@
 *::before,
 *::after,
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
+
+
 .banner {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: contain;
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: contain;
 }
 
 .banner-main-gamehub {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  overflow: hidden;
 }
 /* bilder på hovedsiden */
 .gamecover {
-    height: 45vh;
-    width: auto;
+  height: 45vh;
+  width: auto;
 }
 
 .gameheading {
-    display: flex;
-    justify-content: space-between;
-    margin: 3rem 2rem 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 2rem 2rem 2rem;
 }
 .gameheading h1 {
-    font-size: 2rem;
-    font-weight: 700;
+  font-size: 2rem;
+  font-weight: 700;
 }
 .gameheading p {
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 2rem 0 0 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 2rem 0 0 0;
 }
 .flex-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 5vh 0 10vh 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 5vh 0 10vh 0;
 }
 .imggamecover {
-    position: relative;
+  position: relative;
 }
 .card img {
-    border-radius: 1rem;
-    border-right: -30px;
+  border-radius: 1rem;
+  border-right: -30px;
 }
 .card-text {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 .card p {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #ffb302;
-    color: black;
-    font-weight: 700;
-    padding: 5px 10px 5px 10px;
-    border-radius: 20%;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffb302;
+  color: black;
+  font-weight: 700;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20%;
 }
 .card-text i {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .card {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 /* create-account siden */
 
 .login-wrapper {
-    width: 100vw;
-    min-height: 500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    align-self: center;
+  display: flex;
+  justify-content: space-around;
 }
 .form {
-    /* position: relative; */
-    width: 100%;
-    max-width: 800px;
-    padding: 80px 40px 40px;
-    border-radius: 10px;
-    color: black;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
-    margin: 100px 0;
+  width: 100%;
+  max-width: 800px;
+  padding: 80px 40px 40px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
+  margin: 100px 5px;
 }
 .form img {
-    position: relative;
-    top: -50px;
+  position: relative;
+  top: -50px;
 }
 form h2 {
-    position: relative;
-    top: -50px;
-    left: calc(50% - 100px);
-    font-size: 2rem;
+  position: relative;
+  top: -50px;
+  left: calc(50% - 100px);
+  font-size: 2rem;
+  display: inline-block;
 }
 .form .login-form input {
-    display: block;
-    width: 70%;
-    padding: 10px 0;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 2px solid rgb(3, 3, 3);
-    background-color: transparent;
-    color: black;
-    outline: none;
+  display: block;
+  width: 70%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid rgb(3, 3, 3);
+  background-color: transparent;
+  color: black;
+  outline: none;
 }
 .login-butten {
-    background-color: #32bf5d;
-    font-size: 1.5rem;
-    font-weight: bold;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 10px;
+  background-color: #32bf5d;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 /* comfirm-purchase page */
 .comfirm-wrapper {
-    width: 100vw;
-    min-height: 500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 100vw;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .box-comf {
-    width: 100%;
-    max-width: 800px;
-    padding: 100px 40px;
-    border-radius: 10px;
-    color: black;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
-    margin: 100px 0;
+  width: 100%;
+  max-width: 800px;
+  padding: 100px 40px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
+  margin: 100px 0;
 }
 .Share,
 .Download {
-    flex: 1;
-    display: inline-block;
-    text-align: center;
+  flex: 1;
+  display: inline-block;
+  text-align: center;
 }
 .com {
-    width: 100%;
-    position: relative;
-    top: -40px;
-    text-align: center;
+  width: 100%;
+  position: relative;
+  top: -40px;
+  text-align: center;
 }
 .down {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 /* purchase */
 
 .sum-wrapper {
-    width: 100vw;
-    min-height: 500px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .total-sum {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 300px;
-    padding: 30px 30px;
-    border-radius: 10px;
-    color: black;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
-    margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
+  margin: 20px 0;
 }
 .total-sum div {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 1rem;
-    margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 1rem;
+  margin: 1rem 0;
 }
 .form-sum {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    width: 100%;
-    max-width: 800px;
-    padding: 80px 40px 40px;
-    border-radius: 10px;
-    color: black;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
-    margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 800px;
+  padding: 80px 30px 30px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 5);
+  margin: 100px;
 }
 .address div {
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: column;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
 }
 .address div p {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2rem;
 }
 .address div input {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    border: none;
-    border-bottom: 2px solid rgb(3, 3, 3);
-    background-color: transparent;
-    color: black;
-    outline: none;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: none;
+  border-bottom: 2px solid rgb(3, 3, 3);
+  background-color: transparent;
+  color: black;
+  outline: none;
 }
 .address div label {
-    font-size: 1.2rem;
-    font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 .cardinfo div {
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .cardinfo div input {
-    display: block;
-    width: 100%;
-    padding: 10px 0;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    border: none;
-    border-bottom: 2px solid rgb(3, 3, 3);
-    background-color: transparent;
-    color: black;
-    outline: none;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  border: none;
+  border-bottom: 2px solid rgb(3, 3, 3);
+  background-color: transparent;
+  color: black;
+  outline: none;
 }
 .cardinfo div label {
-    font-size: 1.2rem;
-    font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 #purchase-butten {
-    background-color: #32bf5d;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 10px;
+  background-color: #32bf5d;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
 }
 /* profile page */
 
 .profile-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-height: 600px;
-    margin: 100px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 600px;
+  margin: 100px 0;
 }
-.profile-wrapper div{
-    flex: 1;
+.profile-wrapper div {
+  flex: 1;
 }
 
-.profile-avitar{
-    
-    text-align: center;
+.profile-avitar {
+  text-align: center;
 }
-.profile-avitar h1{
-    font-size: 2rem;
-    font-weight: bold;
-   padding-bottom: 40px;
+.profile-avitar h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 40px;
 }
-.profile-avitar img{
-    height: 150px;
-    width: auto;
-   
+.profile-avitar img {
+  height: 150px;
+  width: auto;
 }
-.profile-info p{
-    font-size: 1.2rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 20px 10px;
-    padding-left: 50px;
+.profile-info p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 20px 10px;
+  padding-left: 50px;
 }
-.profile-info .profile-butten{
-    text-align: center;
-    padding-top: 20px;
+.profile-info .profile-butten {
+  text-align: center;
+  padding-top: 20px;
 }
-.profile-butten button{
-    background-color: #32BF5D;
-border-radius: 10px;
-padding: 5px;
-border: 2px solid black;
+.profile-butten button {
+  background-color: #32bf5d;
+  border-radius: 10px;
+  padding: 5px;
+  border: 2px solid black;
 }
 /* game-info */
 
-.gameimg{
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: contain;
+.img-game {
+  flex-shrink: 0;
+  min-width: 90%;
+  min-height: 90%;
+  object-fit: contain;
+  overflow: hidden;
 }
-.gameimg img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    overflow: hidden;
-    
+
+.img-game-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  overflow: hidden;
+}
+.g-tittel {
+  padding: 2rem 0 2rem 1rem;
+}
+.g-tittel h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.pris div {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.pris i {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+.pris p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.about h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.about div {
+  padding: 2rem 0 2rem 1rem;
+  width: 300px;
+}
+.about p {
+  text-align: justify;
+  word-wrap: break-word;
+}
+.details {
+  padding: 2rem 0 2rem 1rem;
+}
+.details h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.details h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.details p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.details-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.details-info {
+  margin-top: 10px;
 }

@@ -2,84 +2,89 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 nav {
-    display: none;
+  display: none;
 }
 #hamburger-menu {
-    display: none;
+  display: none;
 }
 #hamburger-menu:checked ~ nav {
-    display: block;
+  display: block;
 }
 
 .fa-bars {
-    font-size: 2.5rem;
-    padding: 1rem 0 1rem 2rem;
+  font-size: 2.5rem;
+  padding: 1rem 0 1rem 2rem;
 }
-header{
-    padding: 1rem 0 1rem 0;
+header {
+  padding: 1rem 0 1rem 0;
 }
 
 .container-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 auto;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 .logo-container {
-    /* flex: 1; */
-    max-width: 500px;
+  /* flex: 1; */
+  max-width: 500px;
 }
 .logo-container img {
-    width: 100%;
+  width: 100%;
 }
 .search {
-    border: 1.5px solid black;
-    border-radius: 20px;
-    height: 40px;
-    width: 100vw;
-    padding: 2px 23px 2px 45px;
-    outline: 0;
-    max-width: 500px;
+  border: 1.5px solid black;
+  border-radius: 20px;
+  height: 40px;
+  width: 100vw;
+  padding: 2px 23px 2px 45px;
+  outline: 0;
+  max-width: 500px;
 }
 .searchbar {
-    display: flex;
-    justify-content: center;
-    flex-direction: column-reverse;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
 }
 .fa-search {
-    position: relative;
-    top: 37px;
-    left: 8px;
-    width: 14px;
-    font-size: 2rem;
+  position: relative;
+  top: 37px;
+  left: 8px;
+  width: 14px;
+  font-size: 2rem;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 a {
-    color: black;
+  color: black;
 }
 @media screen and (min-width: 1000px) {
-    ul {
-        display: inline-flex;
-    }
-    .li-list a {
-        margin: 1.5rem 1rem;
-    }
-    nav {
-        display: inline-flex;
-    }
+  ul {
+    display: inline-flex;
+  }
+  .li-list a {
+    margin: 1.5rem 1rem;
+  }
+  nav {
+    display: inline-flex;
+  }
 
-    #hamburger-menu {
-        display: none;
-    }
+  #hamburger-menu {
+    display: none;
+  }
 
-    .fa-bars {
-        display: none;
-    }
+  .fa-bars {
+    display: none;
+  }
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

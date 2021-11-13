@@ -22,11 +22,11 @@
 }
 .g-tittel {
   grid-area: tittel;
-  background: brown;
+  
 }
 .pris {
   grid-area: pris;
-  background: chartreuse;
+  
 }
 .about {
   grid-area: about;
