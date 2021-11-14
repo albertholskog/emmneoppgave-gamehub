@@ -41,7 +41,7 @@ header {
   border: 1.5px solid black;
   border-radius: 20px;
   height: 40px;
-  width: 100vw;
+  max-width: 100vw;
   padding: 2px 23px 2px 45px;
   outline: 0;
   max-width: 500px;

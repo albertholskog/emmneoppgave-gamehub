@@ -1,10 +1,9 @@
-
 #game-info-grid {
   display: grid;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 2fr 1fr 1fr  1fr 0.5fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr 1fr 0.5fr;
   grid-template-areas:
     "header header"
     "gameimg gameimg"
@@ -22,11 +21,9 @@
 }
 .g-tittel {
   grid-area: tittel;
-  
 }
 .pris {
   grid-area: pris;
-  
 }
 .about {
   grid-area: about;
@@ -34,6 +31,6 @@
 .details {
   grid-area: details;
 }
-.footer{
+.footer {
   grid-area: footer;
 }
