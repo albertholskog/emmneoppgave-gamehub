@@ -2,32 +2,30 @@
 
 https://elastic-mclean-62a092.netlify.app/
 
-gamehub is the site that sells games, here you can buy and sell your
+Gamehub is the site that sells games, here you can buy and sell your
             old games, so you can save some money. this was a topic assignment
             we had
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+The gamehub page was a topic assignment we had where we were to design a page for young people who were interested in buying and selling games. the task was more desing heavy than coding.
 
-You can add some bullet points if you'd like to:
 
-- List item 1
-- List item 2
-- List item 3
+Things that were important for me to include in this assignment:
+
+- Colors that young people like
+- Large pictures to highlight the games
+- Write css and html as nicely and clearly as possible
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
-
+This page was made whit:
+ - Html 
+ - CSS
+ - xd
 ## Getting Started
 
 ### Installing
-
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
 
 1. Clone the repo:
 
@@ -41,15 +39,6 @@ git clone git@github.com:NoroffFEU/portfolio-1-example.git
 npm install
 ```
 
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
 
 ## Contributing
 
@@ -57,16 +46,5 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+[My LinkedIn page](https://www.linkedin.com/in/albert-eikeland-holskog-047347185?originalSubdomain=no)
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
