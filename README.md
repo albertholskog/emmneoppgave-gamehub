@@ -1,8 +1,10 @@
-# Your project title
+# GameHub
 
 https://elastic-mclean-62a092.netlify.app/
 
-A simple overview of the use/purpose of the project.
+gamehub is the site that sells games, here you can buy and sell your
+            old games, so you can save some money. this was a topic assignment
+            we had
 
 ## Description
 
