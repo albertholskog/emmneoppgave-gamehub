@@ -33,11 +33,7 @@ This page was made whit:
 git clone github.com/albertholskog/emmneoppgave-gamehub.git
 ```
 
-2. Install the dependencies:
 
-```
-npm install
-```
 
 
 ## Contact
