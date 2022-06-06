@@ -3,12 +3,12 @@
 https://elastic-mclean-62a092.netlify.app/
 
 Gamehub is the site that sells games, here you can buy and sell your
-            old games, so you can save some money. this was a topic assignment
-            we had
+            old games, so you can save some money. This was a topic assignment
+            we had.
 
 ## Description
 
-The gamehub page was a topic assignment we had where we were to design a page for young people who were interested in buying and selling games. the task was more desing heavy than coding.
+The gamehub page was a topic assignment we were to design a page for young people who were interested in buying and selling games. The task was more desing heavy than coding.
 
 
 Things that were important for me to include in this assignment:
